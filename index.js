@@ -49,6 +49,7 @@ app.put("/completed",function(req,res){
     },{
         completed : true
     })
+    
     res.json({
         msg : "Todo marked as completed"
     })
